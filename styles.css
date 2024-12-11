@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: url('assets/stationary-shield.png') no-repeat center center fixed; /* 背景图片 */
+    background: url('stationary-shield.png') no-repeat center center fixed; /* 背景图片 */
     background-size: cover; /* 背景图片覆盖整个页面 */
     color: #ebffD3;
     display: flex;
