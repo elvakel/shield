@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('assets/stationary-shield.png') no-repeat center center fixed; /* 背景图片 */
+    background-size: cover; /* 背景图片覆盖整个页面 */
+    color: #ebffD3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0); /* 透明背景 */
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 500px;
+    box-shadow: 0 0 15px rgba(7, 7, 7, 0);
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+input[type="password"] {
+    padding: 15px;
+    width: 250px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    background-color: rgba(135, 156, 134, 0.4); /* 半透明背景颜色 */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hint {
+    font-size: 24px;
+    color: #ebffD3;
+    text-shadow: 0 0 3px #fff, 0 0 5px #dfffe3;
+    margin-top: 5px;
+}
+
+.success {
+    display: none;
+    font-size: 24px;
+    color: #ebffD3;
+    margin-top: 20px;
+}
