@@ -24,8 +24,8 @@ body {
     margin-top: 500px;
     box-shadow: 0 0 15px rgba(7, 7, 7, 0);
 }
-.input-box::placeholder {
-    color: #FFFFFF;
+#password::placeholder {
+    color: #fff; /* 设置占位符文字颜色为白色 */
 }
 
 h1 {
